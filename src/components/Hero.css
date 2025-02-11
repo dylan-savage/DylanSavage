@@ -1,0 +1,84 @@
+.hero-section {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent; /* Make the background transparent */
+  color: white;
+  padding: 2rem;
+}
+
+
+.hero-content {
+  text-align: center;
+  line-height: 1.5; /* Sets consistent spacing between lines */
+}
+
+.hero-content h1 {
+  font-size: 5.5rem; /* Larger font size for main title */
+  /* margin-bottom: 5 rem; */
+}
+
+.hero-content name{
+  color: #6c5ce7;
+}
+
+.resume-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.resume-link:hover {
+  color: #6c5ce7;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  gap: 2rem; /* Space between the buttons */
+  /* margin-top: 1rem; Adds spacing between the text and buttons */
+}
+
+.button {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #6c5ce7;
+  transition: all 1000ms;
+  font-size: 22px;
+  position: relative;
+  overflow: hidden;
+  outline: 3px solid #6c5ce7;
+}
+
+.button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #6c5ce7;
+  box-shadow: 4px 5px 17px -4px #6c5ce7;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #6c5ce7;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.button:hover::before {
+  width: 250%;
+}

@@ -1,0 +1,94 @@
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: transparent;
+    color: white;
+  }
+  
+  /* Header Styling - Matches Other Sections */
+  .contact-section h2 {
+    font-size: 3rem;
+    color: #6c5ce7;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5 rem;
+  }
+  
+  /* Contact Form Box */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 2.5rem;
+    background: rgba(0, 0, 0, 0.9);
+    border: 4px solid #6c5ce7; /* Increased border thickness */
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(108, 92, 231, 0.5);
+  }
+  
+  /* Input Fields */
+  .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  input, textarea {
+    width: 95%; /* Prevents touching the right border */
+    padding: 1rem;
+    border-radius: 8px;
+    border: 3px solid #6c5ce7; /* Thicker borders */
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    text-align: center; /* Centers text inside input fields */
+    margin: 0 auto; /* Ensures proper centering */
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.815);
+  }
+  
+  /* Centering Form Content */
+  textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  /* Contact Form Button */
+  .contact-form button {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    background: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .contact-form button:hover {
+    background: #ffffff;
+    scale: .95;
+    box-shadow: 0px 6px 15px rgba(108, 92, 231, 0.5);
+  }
+ 
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-form {
+      width: 90%;
+    }
+  }
+  

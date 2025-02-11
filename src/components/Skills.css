@@ -1,0 +1,64 @@
+/* Skills Section Styling */
+.skills-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    flex-direction: column;
+  }
+ 
+  .skills-header {
+    font-size: 3rem;
+    color: #6c5ce7;
+    margin-bottom: 3rem;
+  }
+  
+  /* Skills Grid */
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of buttons to new rows */
+    justify-content: center; /* Centers the buttons */
+    gap: 1rem; /* Adds consistent gaps between buttons */
+    padding: 2rem; /* Adds spacing around the entire container */
+  }
+  
+  /* Provided UI Element CSS */
+  button {
+    font-size: 1.2rem; /* Adjust font size */
+    padding: 0.6em 1em; /* Adjust padding for consistent sizing */
+    border-radius: 0.5em;
+    border: none;
+    background-color: #121212; /* Match background */
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .container {
+    position: relative;
+    padding: 3px;
+    background: linear-gradient(90deg, #6c5ce7,#6c5ce7);
+    border-radius: 0.9em;
+    transition: all 0.4s ease;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 0.9em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+  }
+  
+  .container:hover::before {
+    background: linear-gradient(90deg, #6c5ce7, #6c5ce7);
+    filter: blur(1.2em);
+  }
+ 
+  .container:active::before {
+    filter: blur(0.2em);
+  }
+  
