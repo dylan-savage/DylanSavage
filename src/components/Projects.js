@@ -24,16 +24,17 @@ const projects = [
   },
 ];
 
+
 const Projects = () => {
   return (
-    <section id="projects" className="projects-section">
-      <h2>Projects</h2>
-      <div className="projects-grid">
+    <section className="projects-section">
+      <h2>Projects</h2> 
+      <div className="projects-container">
         {projects.map((project, index) => (
-          <a key={index} href={project.link} className="project-card" target="_blank" rel="noopener noreferrer">
+          <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-card">
             <img src={project.image} alt={project.name} />
-            <div className="overlay">
-              <h3>{project.name}</h3>
+            <div className="project-overlay">
+              <h3 className="project-title">{project.name}</h3>
             </div>
           </a>
         ))}
@@ -43,10 +44,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// List of projects
-// - Win predictor: put on github and use a thumbnail
-// - UCCE: link to the website - find the page
-// - SF: safe park: link to demo
-// - flappy bird: link to github
-// - therapy bot: link to github

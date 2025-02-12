@@ -1,20 +1,18 @@
-/* General Navbar Styling */
 .navbar {
   display: flex;
   position: fixed;
   width: 100%;
-  background: linear-gradient(90deg, #1a1a1a, #121212); /* Subtle gradient */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
-  justify-content: space-between; /* Space out left and right sections */
+  background: linear-gradient(90deg, #1a1a1a, #121212); 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+  justify-content: space-between; 
   align-items: center;
   padding: 1rem 2rem;
   z-index: 10;
-  overflow: hidden; /* Prevent overflow issues */
+  overflow: hidden; 
 }
 
-/* Left section: "Dylan Savage" */
 .navbar-left {
-  font-size: 1.5rem; /* Consistent font size for prominence */
+  font-size: 1.5rem; 
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -28,42 +26,40 @@
 }
 
 .navbar-left a:hover {
-  color: #6c5ce7; /* Highlight effect on hover */
+  color: #6c5ce7; 
 }
 
-/* Right section: Navigation links */
+
 .navbar-right {
   display: flex;
-  gap: 3rem; /* Space between links */
+  gap: 3rem; 
   list-style: none;
   margin-right: 100px;
   padding: 0;
-  justify-content: flex-end; /* Align to the right */
-  flex: 1; /* Takes up remaining space */
+  justify-content: flex-end; 
+  flex: 1; 
 }
 
 .navbar-right a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.5rem; /* Consistent font size */
-  font-weight: 400; /* Slightly lighter font for distinction */
+  font-size: 1.5rem; 
+  font-weight: 400; 
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .navbar-right a:hover {
-  color: #6c5ce7; /* Highlight effect on hover */
-  transform: scale(1.1); /* Slight grow effect */
+  color: #6c5ce7;
+  transform: scale(1.1); 
 }
 
-/* Active Link Highlight */
 .navbar-right .active {
-  border-bottom: 2px solid #6c5ce7; /* Highlight active section */
+  border-bottom: 2px solid #6c5ce7; 
 }
 
-/* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
   }
@@ -74,7 +70,7 @@
   }
 
   .navbar-left {
-    margin-bottom: 1rem; /* Add spacing between sections */
+    margin-bottom: 1rem; 
   }
 }
 

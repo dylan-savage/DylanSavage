@@ -1,26 +1,25 @@
+
 .hero-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: transparent; /* Make the background transparent */
+  background-color: transparent; 
   color: white;
   padding: 2rem;
 }
 
-
 .hero-content {
   text-align: center;
-  line-height: 1.5; /* Sets consistent spacing between lines */
+  line-height: 1.5; 
 }
 
 .hero-content h1 {
-  font-size: 5.5rem; /* Larger font size for main title */
-  /* margin-bottom: 5 rem; */
+  font-size: 5.5rem; 
 }
 
-.hero-content name{
+.hero-content name {
   color: #6c5ce7;
 }
 
@@ -38,9 +37,16 @@
 
 .hero-buttons {
   display: flex;
-  justify-content: center; /* Centers the buttons horizontally */
-  gap: 2rem; /* Space between the buttons */
-  /* margin-top: 1rem; Adds spacing between the text and buttons */
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem; 
+  margin-top: 2rem;
+}
+
+
+.main-buttons {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .button {
@@ -52,11 +58,16 @@
   text-transform: uppercase;
   cursor: pointer;
   color: #6c5ce7;
-  transition: all 1000ms;
+  transition: all 0.3s ease-in-out; 
   font-size: 22px;
   position: relative;
   overflow: hidden;
   outline: 3px solid #6c5ce7;
+  text-decoration: none;
+  background: transparent; 
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
 }
 
 .button:hover {
@@ -76,9 +87,38 @@
   background-color: #6c5ce7;
   transform: skewX(45deg);
   z-index: -1;
-  transition: width 1000ms;
+  transition: width 1s ease-in-out; 
 }
 
 .button:hover::before {
   width: 250%;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-button:hover {
+  transform: scale(1.2);
+}
+
+.linkedin {
+  border: 4px solid #6c5ce7;
+}
+
+.github {
+  border: 4px solid #6c5ce7;
 }

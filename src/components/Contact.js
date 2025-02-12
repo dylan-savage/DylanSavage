@@ -34,7 +34,7 @@ const Contact = () => {
       console.log("Form submitted:", formData);
       setSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setSubmitted(false), 3000); // Reset success message
+      setTimeout(() => setSubmitted(false), 3000);
     } else {
       setErrors(validationErrors);
     }

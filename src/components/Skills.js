@@ -2,10 +2,9 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  'Python', 'C++', 'C', 'C#', 'HTML', 'CSS',
-  'Javascript', 'Java', 'Kotlin', 'React.js', 'Azure', 'Google Firebase',
-  'QT', 'Android Studios', 'AWS', 'Git', 'Figma', 'Machine Learning', 
-  'Data Analysis', 'Numpy', 'pandas', 'Scikit-Learn', 'TensorFlow', 'Keras'
+  'Python', 'C++', 'C', 'HTML', 'CSS',
+  'Javascript', 'Java', 'Kotlin', 'React.js', 'QT', 'Android Studios', 'Azure', 'Google Firebase',
+  'AWS', 'Git', 'Figma',  'Numpy', 'pandas', 'Scikit-Learn', 'TensorFlow', 'Keras'
 ];
 
 const Skills = () => {

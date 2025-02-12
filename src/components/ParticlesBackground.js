@@ -30,8 +30,8 @@ const ParticlesBackground = () => {
       },
       links: {
         enable: true,
-        color: "#ffffff", // Link color
-        distance: 150, // Link distance
+        color: "#6c5ce7", // Link color
+        distance: 250, // Link distance
       },
     },
     interactivity: {

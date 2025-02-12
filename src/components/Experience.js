@@ -31,6 +31,18 @@ const Experience = () => {
           •  Collaborated to utilize Firebase for backend functionality and real-time data sharing         
           </div>
         </div>
+        {/* Experience 3 */}
+        <div className="notification">
+          <div className="notiglow"></div>
+          <div className="notiborderglow"></div>
+          <div className="notititle">Santa Clara University - Education</div>
+          <div className="notibody">
+          Santa Clara | September 2022 - March 2026  <br />
+          •  Bachelor of Science, Computer Science <br />
+          •  Minor in Mathematics <br />
+          •  3.62 GPA
+          </div>
+        </div>
       </div>
     </section>
   );
