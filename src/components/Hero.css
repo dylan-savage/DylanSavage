@@ -1,13 +1,14 @@
 
 .hero-section {
-  height: 100vh; 
+  height: 85vh; /* Reduce height to bring content closer to the top */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Align content closer to the top */
   text-align: center;
-  background-color: transparent; 
+  background-color: transparent;
   color: white;
+  padding: 2rem 0 0 0; /* Reduce top padding */
 }
 
 .hero-content {
