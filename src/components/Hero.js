@@ -5,13 +5,12 @@ const Hero = () => {
   return (
     <section className="hero-section" id="home">
       <div className="hero-content">
-        <h1>Hi! <br /> I'm, <name><strong> Dylan</strong></name> 
-        <br />ML Engineer & <br />Software Engineer.
-        </h1>
-
+          <h1>Hi! <br /> I'm, <name><strong> Dylan</strong></name> 
+          <br />ML Engineer & <br />Software Engineer.
+          </h1>
         <div className="hero-buttons">
           <div className="main-buttons">
-            <a href="/DylanSavageResume.pdf" target="_blank" rel="noopener noreferrer" className="button">
+            <a href={process.env.PUBLIC_URL + "/DylanSavageResume.pdf"} target="_blank" rel="noopener noreferrer" className="button">
               Resume
             </a>
             <button className="button" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
