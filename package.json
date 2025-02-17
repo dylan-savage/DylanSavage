@@ -2,7 +2,7 @@
   "name": "personal_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dylan-savage/DylanSavage",
+  "homepage": "https://dylan-savage.github.io/DylanSavage",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
+
   "eslintConfig": {
     "extends": [
       "react-app",

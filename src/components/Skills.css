@@ -2,8 +2,9 @@
     text-align: center;
     padding: 4rem 2rem;
     flex-direction: column;
+    height: 90vh;
   }
- 
+
   .skills-header {
     font-size: 3rem;
     color: #6c5ce7;
