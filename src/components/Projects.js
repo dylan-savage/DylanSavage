@@ -4,23 +4,28 @@ import './Projects.css';
 const projects = [
   {
     name: "MLB Win Predictor",
-    image: "/images/win-predictor-image-copy.jpg",
+    image: process.env.PUBLIC_URL + "/images/win-predictor-image-copy.jpg",
     link: "https://github.com/dylan-savage/MLB-Win-Predictor",
   },
   {
     name: "Therapist Chatbot with Meta's Llama3",
-    image: "/images/chatbot-image.jpg",
+    image: process.env.PUBLIC_URL + "/images/chatbot-image.jpg",
     link: "https://github.com/dylan-savage/llama3-chatbot",
   },
   {
     name: "SF Safe Park",
-    image: "/images/sf-safepark-image.jpg",
+    image: process.env.PUBLIC_URL + "/images/sf-safepark-image.jpg",
     link: "https://www.youtube.com/watch?v=LgcK7ceVOfI",
   },
   {
     name: "Flappy Bird AI",
-    image: "/images/flappybird.png",
+    image: process.env.PUBLIC_URL + "/images/flappybird.png",
     link: "https://github.com/dylan-savage/flappy-bird-ML",
+  },
+  {
+    name: "Plant Portal",
+    image: process.env.PUBLIC_URL + "/images/PlantPortalLogo.png",
+    link: "https://github.com/dwu006/scuhacks",
   },
 ];
 
