@@ -1,6 +1,6 @@
 
 .hero-section {
-  height: 85vh; /* Reduce height to bring content closer to the top */
+  height: 100vh; /* Reduce height to bring content closer to the top */
   display: flex;
   flex-direction: column;
   align-items: center;
