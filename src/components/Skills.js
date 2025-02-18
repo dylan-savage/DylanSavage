@@ -2,8 +2,8 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  'Python', 'C++', 'C', 'HTML', 'CSS',
-  'Javascript', 'Java', 'Kotlin', 'React.js', 'QT', 'Android Studios', 'Azure', 'Google Firebase',
+  'Python', 'C++', 'C', 'HTML', 'CSS', 'SQL',
+  'Javascript', 'Java', 'Kotlin', 'React.js','Node.js','QT', 'Android Studios', 'Azure', 'Google Firebase', 'MongoDB',
   'AWS', 'Git', 'Figma',  'Numpy', 'pandas', 'Scikit-Learn', 'TensorFlow', 'Keras'
 ];
 
