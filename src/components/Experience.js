@@ -13,10 +13,9 @@ const Experience = () => {
           <div className="notititle">Groopit - Software Engineer Intern</div>
           <div className="notibody">
           Seattle | June 2024 - August 2024 <br />
-          • Spearheaded development of a Proactive AI feature for a data visualization tool, improving data intake capabilities <br />
-          • Automated consistent data analysis by integrating external API data into structured data models <br />
-          • Designed a repeatable process for an AI model to map and process API data, enhancing system efficiency <br />
-          • Collaborated closely with cross-functional teams, analyzed technical specs, code reviews, and project iterations from initial research to deployment
+          • Engineered an automated data ingestion system in Python, leveraging web scraping and API integration to replace manual data collection. <br />
+          • Developed a Python-based data modeling system that structured external data for Groopit’s AI tool, enabling real-time visualization and insights for client-facing sales demos.<br />
+          •	Implemented an OAuth-secured application to authenticate and authorize Groopit’s data collection pipeline, ensuring secure API interactions without compromising system integrity.          
           </div>
         </div>
         {/* Experience 2 */}

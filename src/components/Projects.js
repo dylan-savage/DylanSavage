@@ -3,7 +3,7 @@ import './Projects.css';
 
 const projects = [
   {
-    name: "MLB Win Predictor",
+    name: "MLB Win Predictor - Machine Learning Model",
     image: process.env.PUBLIC_URL + "/images/win-predictor-image-copy.jpg",
     link: "https://github.com/dylan-savage/MLB-Win-Predictor",
   },
@@ -13,17 +13,17 @@ const projects = [
     link: "https://github.com/dylan-savage/llama3-chatbot",
   },
   {
-    name: "SF Safe Park",
+    name: "SF Safe Park - Web Application",
     image: process.env.PUBLIC_URL + "/images/sf-safepark-image.jpg",
     link: "https://www.youtube.com/watch?v=LgcK7ceVOfI",
   },
   {
-    name: "Flappy Bird AI",
+    name: "Q-Learning Flappy Bird",
     image: process.env.PUBLIC_URL + "/images/flappybird.png",
     link: "https://github.com/dylan-savage/flappy-bird-ML",
   },
   {
-    name: "Plant Portal",
+    name: "Plant Portal - Web Application",
     image: process.env.PUBLIC_URL + "/images/PlantPortalLogo.png",
     link: "https://github.com/dwu006/scuhacks",
   },
