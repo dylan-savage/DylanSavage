@@ -10,7 +10,7 @@ const Hero = () => {
           </h1>
         <div className="hero-buttons">
           <div className="main-buttons">
-            <a href={process.env.PUBLIC_URL + "/DylanSavageResume_Updated.pdf"} target="_blank" rel="noopener noreferrer" className="button">
+            <a href={process.env.PUBLIC_URL + "/DylanSavageResume.pdf"} target="_blank" rel="noopener noreferrer" className="button">
               Resume
             </a>
             <button className="button" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
